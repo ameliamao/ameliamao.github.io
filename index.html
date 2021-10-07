@@ -1,1 +1,83 @@
-Hello World
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Amelia Mao
+EMAIL: maoal@uci.edu
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Amelia Mao">
+  <meta name="description" content="Amelia's personal portfolio">
+   <!-- you would link to an external stylesheet here! -->
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+   <!-- you would also link to Bootstrap here! -->
+  <title>Personal Portfolio</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md">
+    <a class="navbar-brand" href="#"><img src=animegirl.png alt="anime girl with black hair" width=50></a>
+    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="main-navigation">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a> <!-- https://websitesetup.org/bootstrap-tutorial-for-beginners/-->
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="page-header header container-fluid">
+    <div class="overlay"></div>
+    <div class="description">
+      <h1>Welcome to the Amelia's Personal Portfolio!</h1>
+      <p>Amelia Mao is a 19 year old Computer Science student at the University of California, Irvine. She likes to cook and bake in her free time, and solve leetcode questions!</p>
+      <a href = "#moreinfo" class="btn btn-outline-secondary btn-lg">Tell Me More!</a>
+    </div>
+  </header>
+
+  <div class="container features" id="moreinfo">
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <h2 class="feature-title">Education</h2>
+            <img src="https://img.favpng.com/4/1/5/computer-icons-vector-graphics-education-training-school-png-favpng-gkQur6gvjVBJgCq4vbeS1BzXb.jpg" alt="books with graduation cap" class="img-fluid" width="305">
+            <p>Amelia graduated Palo Alto High School in 2020. She currently attends University of California, Irvine as a sophomore majoring in Computer Science. Her graduation date is projected to be June 2024.</p>
+        </div>
+        
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <h3 class="feature-title">Work Experience</h3>
+            <img src="https://spng.pngfind.com/pngs/s/654-6548308_briefcase-free-vector-icons-designed-by-those-icons.png" alt="briefcase" class="img-fluid" width="250">
+            <p>She was in the robotics club in high school and </p>
+        </div>
+        
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <h3 class="feature-title">Coursework</h3>
+            <img src="https://img.favpng.com/20/6/1/computer-icons-scalable-vector-graphics-png-favpng-xFrbNmeF2t1RS6E7TD3YZjH3e_t.jpg" alt="Three stick figures with one highlighted in front" class="img-fluid" width="250">
+            <p>She has taken intro statistics classes, linear algebra, calculus, coding in c++, data structures and algorithms, intro to data management (mySQL), machine learning, and much more.</p>
+        </div>
+        
+        
+    </div>
+</div>
+
+  <p>
+    <a href="http://validator.w3.org/check?uri=referer">
+       W3C validator
+    </a>
+  </p>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>
